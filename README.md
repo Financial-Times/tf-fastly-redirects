@@ -2,7 +2,7 @@
 A Terraform module for simplifying redirects across Fastly services.
 Internally this generates VCL snippets for inclusion in a Fastly service, serving a 302 response code.
 
-# Compatibility
+## Compatibility
 Currently only supports Terraform v0.11.
 Requires Fastly v0.8 or higher.
 
