@@ -2,8 +2,11 @@
 A Terraform module for simplifying redirects across Fastly services.
 Internally this generates VCL snippets for inclusion in a Fastly service, serving a 302 response code.
 
-Currently only supports Terraform v0.11
+# Compatibility
+Currently only supports Terraform v0.11.
 Requires Fastly v0.8 or higher.
+
+__For Terraform v0.12 check `redirects-v0.12` branch.__
 
 ## Path Format
 Paths are case-insensitive, and are defined with a leading slash and without a trailing slash, i.e. `/an-example-link`.
